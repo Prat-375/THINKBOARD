@@ -1,0 +1,15 @@
+*.sou
+*.ntvs*
+*.njsproj*
+*.sln
+*.sw?
+*/dist/*
+*/node_modules/*
+
+backend/.env
+frontend/eslint.config.js
+frontend/postcss.config.js
+*/package-lock.json
+
+*/*/vite.svg
+*/vite.config.js
