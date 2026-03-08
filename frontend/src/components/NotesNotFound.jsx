@@ -1,5 +1,6 @@
 import { NotebookIcon } from "lucide-react";
 import { Link } from "react-router";
+import React from "react";
 
 const NotesNotFound = () => {
     return (

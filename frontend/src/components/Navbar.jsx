@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { PlusIcon } from "lucide-react";
+import React from "react";
 
 const Navbar = () => {
     return <header className="bg-base-300 border-b border-base-content/10">

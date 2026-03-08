@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import toast from 'react-hot-toast';
 import { Link } from 'react-router';
 import { ArrowLeftIcon } from 'lucide-react';
