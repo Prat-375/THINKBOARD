@@ -39,6 +39,10 @@ if (process.env.NODE_ENV === "production") {
 
 
 connectDB().then(() => {
+    app.get("/", (req, res) => {
+    res.send("ThinkBoard API is running");
+});
+
     app.listen(PORT, () => {
     console.log("Server is running on PORT:", PORT);
 });
