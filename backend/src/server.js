@@ -15,11 +15,7 @@ const PORT = process.env.PORT || 5001;
 const __dirname = path.resolve();
 
 // Middleware to parse JSON bodies: req.body
-if (process.env.NODE_ENV !== "production") {
-    app.use(cors({
-        origin: "http://localhost:5173"
-    }));
-}
+app.use(cors());
 
 
 app.use(express.json());

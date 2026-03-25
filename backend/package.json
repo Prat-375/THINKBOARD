@@ -21,6 +21,6 @@
     "thinkboard": "file:.."
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.14"
   }
 }

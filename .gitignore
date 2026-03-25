@@ -1,10 +1,47 @@
-*.sou
-*.ntvs*
-*.njsproj*
-*.sln
-*.sw?
+# =========================
+# Node modules
+# =========================
+node_modules/
+*/node_modules/
 
-backend/.env
-frontend/.env
+# =========================
+# Environment variables (VERY IMPORTANT)
+# =========================
+.env
+.env.*
+!.env.example
 
-*/*/vite.svg
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Build folders
+# =========================
+dist/
+build/
+frontend/dist/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Optional: coverage / temp
+# =========================
+coverage/
+.tmp/
+.cache/
