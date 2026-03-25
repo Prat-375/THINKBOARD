@@ -24,7 +24,7 @@ if (process.env.NODE_ENV !== "production") {
 
 app.use(express.json());
 
-app.use(rateLimiter);
+// app.use(rateLimiter);
 
 // Custom middleware to log request method and URL
 // app.use((req, res, next) => {
